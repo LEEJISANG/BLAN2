@@ -1,19 +1,6 @@
 @charset "UTF-8";
 
-.container {
-    width: 100%;
-    height: 100vh;
-    overflow: auto;
-    scroll-snap-type: y mandatory;
-}
-.item {
-    width: 100%;
-    height: 100vh;
-    scroll-snap-align: center;
-}
-.item4 {
-    background: #80cbc4;
-}
-.item5 {
-    background: #e6ee9c;
+#menu {
+	position: fixed;
+	top: 0;
 }
