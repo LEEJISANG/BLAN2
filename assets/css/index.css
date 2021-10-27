@@ -1,6 +1,39 @@
 @charset "UTF-8";
 
-#menu {
-	position: fixed;
-	top: 0;
+.section:nth-of-type(1) {
+	background-image: url(../../assets/img/last_of_us_part_2-wallpaper-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+	
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	height: 30vh;
+	background-color: rgb(255, 128, 64);
+}
+
+.content {
+	display: flex;
+	height: 70vh;
+}
+
+.artist {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.project {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
