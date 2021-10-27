@@ -8,6 +8,7 @@
 }
 	
 .intro {
+	font-family: 'Poppins';
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
