@@ -43,6 +43,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* reset plus code */
+html {
+	font-family: 'Poppins';
+}
+a {
+	text-decoration: none;
+} 
 /* font */
 @font-face {
 	font-family: Poppins;
