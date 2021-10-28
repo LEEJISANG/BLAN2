@@ -16,7 +16,7 @@ $(document).ready(function() {
 		//access
 
 		//design
-		sectionsColor: ['#aaa', '#bbb', '#ccc', '#ddd']
+		sectionsColor: ['white', 'white', '#ccc', '#ddd']
 	});
 
 	/*//methods
