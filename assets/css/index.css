@@ -6,35 +6,76 @@
     background-position: center;
     background-size: cover;
 }
-	
+
 .intro {
-	font-family: 'Poppins';
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.main {
+	color: white;
+}
+
+.main > p:nth-of-type(1) {
+	font-size: 11em;
+}
+
+.main > p:nth-of-type(2) {
+	margin-bottom: 25px;
+	font-size: 4.75em;
 }
 
 .title {
 	height: 30vh;
-	background-color: rgb(255, 128, 64);
+	color: rgb(0, 0, 50);
+}
+
+.title > p:nth-of-type(2) {
+	font-size: 3.5em;
+	font-weight: bold;
+}
+
+.title > hr {
+	border-top: 3.5px solid rgb(0, 0, 50);
+	width: 55px;
 }
 
 .content {
 	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
 	height: 70vh;
 }
 
-.artist {
+.contact-body {
+	width: 480px;
+	height: 300px;
+	min-width: 480px;
+	margin: 15px;
+}
+
+.contact-body > img {
+	max-width: 100%;
+	height: 100%;
+	border-radius: 35px;
+}
+
+.contact-body > p:nth-of-type(1) {
+	font-size: 2em;
+	color: rgb(0, 0, 50);
+}
+
+.sns-link {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	flex-direction: row;
 	align-items: center;
 }
 
-.project {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+.sns-link > a > img {
+	width: 25px;
+	margin-right: 20px;
+	height: auto;
 }
