@@ -11,12 +11,10 @@ $(document).ready(function() {
 
 		//scroll
 		autoScrolling: true,
-		scrollHorizontally: true,	//version 3
 
 		//access
 
 		//design
-		sectionsColor: ['white', 'white', '#ccc', '#ddd']
 	});
 
 	/*//methods
