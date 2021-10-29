@@ -11,12 +11,14 @@ $(document).ready(function() {
 
 		//scroll
 		autoScrolling: true,
+		scrollHorizontally: true,
+		dragAndMove: true
 
 		//access
 
 		//design
 	});
-
+	
 	/*//methods
 	$.fn.fullpage.setAllowScrolling(false);*/
 
