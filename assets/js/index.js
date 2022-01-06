@@ -11,7 +11,9 @@ $(function() {
 });
 
 $(window).ready(function() {
-	$('body>div:nth-child(1)').hide(1000);
+	if($('body>div:nth-child(1)').attr('id') == null) {
+		$('body>div:nth-child(1)').hide(1000);
+	}
 });
 
 $(document).ready(function() {
