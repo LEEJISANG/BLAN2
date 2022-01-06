@@ -5,15 +5,16 @@
 $(function() {
 	//fullpage.js 광고창 제거
 	if($('body>div:nth-child(1)').attr('id') == null) {
-		$('body>div:nth-child(1)').hide(1000);
+		$('body>div:nth-child(1)').hide();
 	}
-	$('body>div:nth-child(1)').hide(1000);
+	console.log($('body>div:nth-child(1)').attr('id');
 });
 
 $(window).ready(function() {
 	if($('body>div:nth-child(1)').attr('id') == null) {
-		$('body>div:nth-child(1)').hide(1000);
+		$('body>div:nth-child(1)').hide();
 	}
+	console.log($('body>div:nth-child(1)').attr('id');
 });
 
 $(document).ready(function() {
