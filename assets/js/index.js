@@ -5,7 +5,7 @@
 $(function() {
 	//fullpage.js 광고창 제거
 	if($('body>div:nth-child(1)').attr('id') == null) {
-		$('body>div:nth-child(1)').hide();
+		$('body>div:nth-child(1)').css('display', 'none');
 	}
 });
 
