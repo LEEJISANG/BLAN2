@@ -8,6 +8,9 @@ $(function() {
 		$('body>div:nth-child(1)').hide();
 	}
 	console.log($('body>div:nth-child(1)').attr('id'));
+	setTimeout(function() {
+		console.log($('body>div:nth-child(1)').attr('id'));
+	}, 3000);
 });
 
 $(window).ready(function() {
