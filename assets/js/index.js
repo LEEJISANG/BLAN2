@@ -12,7 +12,7 @@ $(window).ready(function() {
 	if($('body>div:nth-child(1)').attr('id') == null) {
 		$('body>div:nth-child(1)').hide();
 	}
-	}, 1000);
+	}, 1);
 });
 
 $(document).ready(function() {
