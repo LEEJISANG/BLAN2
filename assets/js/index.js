@@ -3,16 +3,16 @@
  */
 
 $(function() {
+	
+});
+
+$(window).ready(function() {
 	//fullpage.js 광고창 제거
 	setTimeout(function() {
 	if($('body>div:nth-child(1)').attr('id') == null) {
 		$('body>div:nth-child(1)').hide();
 	}
-	}, 1);
-});
-
-$(window).ready(function() {
-	
+	}, 1000);
 });
 
 $(document).ready(function() {
