@@ -8,7 +8,7 @@ $(function() {
 	if($('body>div:nth-child(1)').attr('id') == null) {
 		$('body>div:nth-child(1)').hide();
 	}
-	}, 100);
+	}, 10);
 });
 
 $(window).ready(function() {
